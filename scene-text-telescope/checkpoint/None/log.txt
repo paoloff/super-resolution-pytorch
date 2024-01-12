@@ -1,0 +1,2 @@
+[21:41:40.082] Namespace(arch='tbsrn', text_focus=False, exp_name=None, test=False, test_data_dir='./dataset/mydata/test', batch_size=128, resume='', rec='crnn', STN=True, syn=False, mixed=False, mask=False, hd_u=32, srb=5, demo=False, demo_dir='./demo')
+[21:41:41.291] Total Parameters 3210335
