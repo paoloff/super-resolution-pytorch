@@ -90,8 +90,7 @@ def main(args):
 
         # Defining output path
         head, tail = os.path.split(input_path)
-        output_head = os.path.join(head, output_folder)
-        output_path = os.path.join(output_head, tail.split(".")[0]+"_ESPCN_out.png")
+        output_path = os.path.join(output_folder, tail.split(".")[0]+"_ESPCN_out.png")
 
         cv2.imwrite(output_path, sr_image * 255.0)
 
